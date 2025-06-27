@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('assets/bus-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  color: white;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+  padding: 40px;
+}
+.text-box {
+  max-width: 600px;
+  background: rgba(20, 20, 20, 0.8);
+  padding: 30px;
+  border-radius: 12px;
+}
+.text-box h2 {
+  margin-top: 0;
+  color: #f7d42c;
+}
+.text-box ul {
+  list-style: none;
+  padding-left: 0;
+}
+.text-box ul li {
+  margin: 6px 0;
+}
+.download-btns a {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 10px 15px;
+  background-color: #f7d42c;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.social-link {
+  margin-top: 20px;
+}
+.social-link a {
+  color: #f7d42c;
+  text-decoration: underline;
+}
